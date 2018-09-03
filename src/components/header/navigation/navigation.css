@@ -1,0 +1,15 @@
+.Navigation {
+    background:#ff1;
+    width: 50%;
+    display: inline-block; 
+}
+
+.Navigation ul li{
+    display: inline-block; 
+    margin: 10px
+    
+}
+
+.Navigation .active {
+    color:  red
+}

@@ -7,10 +7,14 @@ import Footer from './containers/footer/Footer'
 import Main from './containers/main/Main'
 
 
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+
+
         <Header />
         <Main />
         <Footer />
