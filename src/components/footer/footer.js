@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 const footer = (props) => (
     <footer >
         <div className="container ">
-            <p>&copy;2018-web devloper website </p>
+            <p>&copy;2018-Web Up Team </p>
         </div>
       
 

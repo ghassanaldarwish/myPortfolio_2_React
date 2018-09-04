@@ -1,29 +1,38 @@
 import React from 'react'
 
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, FormText, Row, Col } from 'reactstrap';
 
 import './contact.css'
 
 //import contactImgSvg from '../../../assets/map.svg'
 
 const contact = (props) => (
-    <section class="contactMe " id="contact" >
+    <section class="contactMe">
 
     <div class="container ">
-    
+
+        <Row>
+        <Col><h2>Contact Us</h2></Col>
+        </Row>
+        <Row>
+            <Col><p className='underTitle'>We Help You Build A Fantastic Website.</p></Col>
+        </Row>
+        
     <Form>
+       
         <FormGroup>
-          <Label for="exampleEmail">Email</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+          <Label for="examplename">name</Label>
+          <Input type="name" name="name" id="examplename" placeholder="name placeholder" />
         </FormGroup>
-        <FormGroup>
-          <Label for="examplePassword">Password</Label>
-          <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
+
+         <FormGroup>
+          <Label for="exampleEmail">Email</Label>
+          <Input type="email" name="email" id="exampleEmail" placeholder="Email a placeholder" />
         </FormGroup>
 
         <FormGroup>
-          <Label for="examplePassword">Subject</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+          <Label for="exampleSubject">Subject</Label>
+          <Input type="subject" name="subject" id="examplesubject" placeholder="Subject a placeholder" />
         </FormGroup>
 
       
