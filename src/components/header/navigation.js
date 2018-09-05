@@ -36,10 +36,11 @@ class navigation extends React.Component{
         return (
      
       
-            <Navbar  expand="md" className='Navigation sticky-top '>
+            <Navbar expand="md" light className='Navigation sticky-top '>
                 <div className='container'>
               <NavbarBrand ><span>Ghassanooooo</span></NavbarBrand>
               <NavbarToggler onClick={this.toggle} />
+              
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                   <NavItem>

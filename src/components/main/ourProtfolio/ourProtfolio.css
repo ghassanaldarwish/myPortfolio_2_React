@@ -5,3 +5,10 @@
 .ourProtfolio .cardRow {
     margin-bottom: 30px
 }
+
+.ourProtfolio .cardRow a{
+    color: #fff;
+    text-decoration: none
+}
+
+

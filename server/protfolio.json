@@ -1,0 +1,18 @@
+[
+    {
+        "title": "shoppin-cart",
+        "body": "we use react and redux technology",
+        "url": "/static/media/p1.d5310d8e.jpeg"
+    },
+    {
+        "title": "food recipes",
+        "body": " javascript and async use internal api",
+        "url":"/static/media/p2.8d208b7f.jpeg"
+    },
+    {
+        "title": "the shopping list",
+        "body": "javascript",
+        "url":"/static/media/p3.9ce017b8.jpeg"
+    }
+   
+]
