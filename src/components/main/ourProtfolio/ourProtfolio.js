@@ -7,32 +7,18 @@ import {
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 
-import { Link } from 'react-router-dom'
-import axios from 'axios'
+import { Link, withRouter } from 'react-router-dom'
 
-import proImg1 from '../../../assets/p1.jpeg'
-import proImg2 from '../../../assets/p2.jpeg'
-import proImg3 from '../../../assets/p3.jpeg'
-import proImg4 from '../../../assets/p4.jpeg'
-import proImg5 from '../../../assets/p5.png'
-import proImg6 from '../../../assets/p6.jpeg'
-
+import ProtfolioCard from './protfolioCard/protfolioCard'
 
 
 import './ourProtfolio.css'
 
 class ourProtfolio extends React.Component {
 
-    state = {
-        protfolioInfos: []
-    }
-
-    componentDidMount() {
-        axios.get('http://localhost:4000/api/protfolio')
-            .then(res => console.log(this.setState({ protfolioInfos: res.data })))
-    }
 
     render() {
+        console.log(this.props)
         return (
             <section className='ourProtfolio'>
                 <Container>
@@ -43,39 +29,16 @@ class ourProtfolio extends React.Component {
                         <Col><p className='underTitle'>The Following Is Part Of Our Project</p></Col>
                     </Row>
 
-
-
-
-
                     <Row className='cardRow'>
 
-                        {this.state.protfolioInfos.map((protfolioInfo,index )=> {
+                        {this.props.protfolioInfos.map((protfolioInfo,index)=> {
                             return (
-                                <Col key={index}>
-                                    <Card>
-                                        <CardImg top width="100%" src={protfolioInfo.url} alt="Card image cap" />
-                                        <CardBody>
-                                            <CardTitle>{protfolioInfo.title}</CardTitle>
-                                            
-                                            <CardText>{protfolioInfo.body}</CardText>
-                                            <Button><Link to={`/project/${index+1}`}>project</Link></Button>
-                                        </CardBody>
-                                    </Card>
-                                </Col>
+                                <ProtfolioCard protfolioInfo={protfolioInfo} index={index} />
                             )
                         })}
-
-                     
-
                     </Row>
 
-
-
-
-
-
                 </Container>
-
 
             </section>
         )
@@ -84,4 +47,4 @@ class ourProtfolio extends React.Component {
 
 
 
-export default ourProtfolio
+export default withRouter(ourProtfolio)

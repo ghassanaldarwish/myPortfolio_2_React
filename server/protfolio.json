@@ -2,17 +2,20 @@
     {
         "title": "shoppin-cart",
         "body": "we use react and redux technology",
-        "url": "/static/media/p1.d5310d8e.jpeg"
+        "url": "/static/media/p1.d5310d8e.jpeg",
+        "projectUrl":"https://github.com/Ghassanooooo/shoppin-cart" 
     },
     {
         "title": "food recipes",
         "body": " javascript and async use internal api",
-        "url":"/static/media/p2.8d208b7f.jpeg"
+        "url":"/static/media/p2.8d208b7f.jpeg",
+        "projectUrl":"https://github.com/Ghassanooooo/api-food" 
     },
     {
         "title": "the shopping list",
         "body": "javascript",
-        "url":"/static/media/p3.9ce017b8.jpeg"
+        "url":"/static/media/p3.9ce017b8.jpeg",
+        "projectUrl":"https://github.com/Ghassanooooo/the-shopping-list" 
     }
    
 ]
