@@ -2,20 +2,15 @@
     {
         "title": "shoppin-cart",
         "body": "we use react and redux technology",
-        "url": "/static/media/p1.d5310d8e.jpeg",
+        "url": "https://lh3.googleusercontent.com/Kw-DLjXPvX-VIx6wCAs1kCyJIKiZI5AbM0Qk1X4XWIbt_l0L6k1wdTNJgDLHezMoLymbMdZYsLt9cHFuV3PqlhockfdzysDVJkVBCFPBhAxefKfg_LmrE733gc79AyQ17uSyUJcEs3pKTd8atT0UqivtjBf7C0Yyt72-0OpetwtQilthMzYIMJI4-6ZDJwVRF21iM_8YR9mTKdh3iYmCJqeYlmN0siFDRGDJhWYRQcM5GW5smq439xrISoMq9XilF-ZD3wicbrImgrU1mRhGz8Q-tfueX_GBgiSoBN8S9Zpyorq17IUB36Ar4MjrErSGX55HelePcR6L1ZgBJR7lW_JR6lGMRrmMw3RYn3KANqimpbreB-8kwgk8CTzihyBorHnvtquMGoVBgOoxNBrOX2HESkbTsZ5gy8mb6A7FpkGiUfg19UEDYZht-0zLappTIhonRhcOkyNKioXEioEd_XJCtBqjR1xvnmg6Eb7vvNNC79tSadtxEEkU-47e7OHr2qFl1QGKy4pVmlF-xEUlbS5OZSudHjvfk0WKhcgF7TK3-gCHhLwUJnxfrVVFxV5KMQJtGdqMv13STl3aZ1HHNoCnfrjxHgsiyiOKOo6bN82cHFsy2vfwAChbcd5Mxw=s903-no",
         "projectUrl":"https://github.com/Ghassanooooo/shoppin-cart" 
     },
+    
     {
-        "title": "food recipes",
-        "body": " javascript and async use internal api",
-        "url":"/static/media/p2.8d208b7f.jpeg",
-        "projectUrl":"https://github.com/Ghassanooooo/api-food" 
-    },
-    {
-        "title": "the shopping list",
-        "body": "javascript",
-        "url":"/static/media/p3.9ce017b8.jpeg",
-        "projectUrl":"https://github.com/Ghassanooooo/the-shopping-list" 
+        "title": "tic tac toe game",
+        "body": "react javascript",
+        "url":"https://lh3.googleusercontent.com/-iSYogOCaksWjrvHZrt6ozSg-ghXHnFgHOzjsZPB15izcsLU4JEZfeHBqwZ5lu1czz_nBCmpAjGWpEkUYQjXvJKJndbiWFpg3fU_IxUEjfEQqfpVdljMtL_16wxdYKRJBxvBC7y23h6ZGBdIlz-OC6G3FQKTV580ILUS314fsdBtncWOf6bCRhRNImavuAsDCgrKBH40pjHQxylQkS60KlakVLvQmIc5BvJgFPa3gaZVL9vAAN2rOXg1oXA2nUKlHgaJQaXrXu-_I9UkvEZcqc2pjK0bAUe-47iTjbYcuQ6rl2KFGuombTkE-1QXncorkw4EZVyX9f_Elu-a1XZJUmBibdwWuSjWTtM7RwcHHLDwFGejYpgT6goCScvOv7-iD4qxeV0gNYfNNdIBigkp6z1tq62uH-bQNEyRDPG-aV_4DflBsl_BL6xJfod8fHVP-076YbdZFJTnO1FeeQrQnArLckPumSNluuXX4XTVnlKyHy04ncI8CmxcaiYBNJZTiWbZZXueNvHNA4Iwsl24HpxJld1UQyIKZqCQuPsrSdQwMfhZsAtHRJDlaDtuFiViGHseE5P5cTZcqeC96Ri6hYs7aONofiVQPOU7by_86maCA-tMZxZlS8q4N5Zd8Q=s905-no",
+        "projectUrl":"https://github.com/Ghassanooooo/tic-tac-toe-starter" 
     }
    
 ]

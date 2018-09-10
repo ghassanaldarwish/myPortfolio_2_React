@@ -7,7 +7,7 @@ import OurTeam from './ourTeam/ourTeam'
 import Contact from './contact/contact'
 import Carousel from '../../components/header/carousel/carousel';
 import './main.css'
-import Test from './test'
+import SingleProject from './ourProtfolio/singleProject/singleProject'
 
 import { Route, withRouter } from 'react-router-dom'
 
@@ -81,11 +81,13 @@ class main extends React.Component {
           <Route exact path='/services' render={() => <Services serviceInfos={this.props.serviceInfos} />} />
           <Route exact path='/protfolio' render={() => <OurProtfolio protfolioInfos={this.props.protfolioInfos} />} />
     
-          <Route exact path='/:id' component={Test} />
+          
     
           <Route exact path='/about' component={About} />
           <Route exact path='/team' component={OurTeam} />
           <Route exact path='/contact' component={Contact} />
+
+          <Route exact path='/:id' component={SingleProject} />
          
     
     
