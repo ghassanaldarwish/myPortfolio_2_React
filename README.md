@@ -3,7 +3,7 @@
 ![Screenshot](myPortfolio_2_React.png)
 
 
-> A quick walkthrough of my burger builder app built using React, React Router, and Redux
+> A quick walkthrough of my myPortfolio_2_React app built using React, React Router, and Redux
 
 
 
