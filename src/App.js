@@ -1,28 +1,24 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Home from "./components/home/home";
 
-import 'bootstrap/dist/css/bootstrap.css'
-import './App.css';
-
-
-
-import Footer from './containers/footer/Footer'
-import Main from './containers/main/Main'
-import Navigation from './components/header/navigation';
-
-
-
+import "./App.css";
+import Navbar from "./components/navbar/navbar";
+import Profile from "./components/profile/profile";
+import Contact from "./components/contact/contact";
+import Projects from "./components/projects/projects";
+import Footer from "./components/footer/footer";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-
-        <Navigation  />
-        <Main />
+        <Navbar />
+        <Home />
+        <Profile />
+        <Projects />
+        <Contact />
         <Footer />
       </div>
-    
     );
   }
 }

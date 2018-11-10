@@ -1,0 +1,13 @@
+.Navbar {
+  color: #fff;
+}
+.Navbar a {
+  color: #fff;
+}
+.NavbarFlexFix {
+  flex-direction: row-reverse;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}

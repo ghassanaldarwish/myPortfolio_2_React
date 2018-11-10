@@ -1,0 +1,13 @@
+.Contact {
+  background: white;
+  padding: 100px 0;
+}
+.MediaNetwork {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.MediaNetworkIcons {
+  display: inline-block;
+  margin: 10px;
+}
