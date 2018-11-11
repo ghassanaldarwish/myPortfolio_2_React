@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { Link } from "react-scroll";
 import "./navbar.css";
 
@@ -7,7 +7,7 @@ class navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light text-light sticky-top bg-secondary Navbar">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Ghassan Aldarwish
           </a>
           <button

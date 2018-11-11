@@ -68,7 +68,11 @@ class Projects extends Component {
               {this.state.proData.map(item => (
                 <div className="col-md-4 mb-5 ">
                   <div className="card">
-                    <img className="card-img-top" src={item.img} />
+                    <img
+                      alt="pro img"
+                      className="card-img-top"
+                      src={item.img}
+                    />
                     <div className="card-body">
                       <h5 className="card-title">{item.title}</h5>
                       <p className="card-text">{item.discrption}</p>
