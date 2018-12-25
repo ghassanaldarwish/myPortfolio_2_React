@@ -11,10 +11,10 @@ class App extends Component {
         <div class=" bg-overlay ">
           <div class="row text-center">
             <div className="container ">
-              <h1>Hello, I'm Ghassan Aldarwish.</h1>
+              <h1>Hello, I'm Ghassan Aldarwish</h1>
               <h4>
                 <br />
-                I'm a full-stack web developer.
+                I'm software engineer
               </h4>
               <br />
               <br />
