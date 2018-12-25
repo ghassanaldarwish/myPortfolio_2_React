@@ -23,9 +23,7 @@ class Profile extends Component {
               box and critical thinking with proficiency in team-building.
               Working with people from diverse backgrounds have provided me with
               a deep understanding and awareness of differences in both
-              individuals and organizations. These qualities will help to
-              support Fit Analytics’s mission while reflecting positively on the
-              professionalism and competencies in its employees.
+              individuals and organizations.
             </p>
           </div>
         </div>
